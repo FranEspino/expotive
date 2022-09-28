@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, dev, cloud, ia  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,24 +22,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: ia,
+    title: "Inteligencia artificial",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Aprende los conceptos acerca de este campo, crea tus primeras redes neuronales y aplicalos al mundo real. ",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: cloud,
+    title: "Servidor en la nube",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Administrar tu servidor en la nube, aprende a realizar despliegues e instalar las herramientas necesarias.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: dev,
+    title: "Computacion grafica",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Obtén conocimiento en técnicas modernas en computación gráfica, crea e importa modelos en 3D.",
   },
 ];
 
@@ -73,18 +73,23 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Concurso de programacion",
+    value: "",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Concurso de proyectos",
+    value: "",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Bootcamps",
+    value: "",
+  },
+  {
+    id: "stats-4",
+    title: "Ponencias",
+    value: "",
   },
 ];
 
