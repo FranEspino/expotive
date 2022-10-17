@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px] ml-12" />
+      <img src={logo} alt="hoobank" className="w-[160px] h-[80px] ml-12" />
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 mr-12">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
