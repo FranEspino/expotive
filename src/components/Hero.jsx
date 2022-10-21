@@ -4,29 +4,30 @@ import GetStarted from "./GetStarted";
 import Animation from "./../components/Animation"
 const Hero = () => {
   return (
-    <section id="home" className={`flex p-12 md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="home" className={`flex  md:p-12 md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Desde</span> el
-            <span className="text-white"> {" "}21 al 25 de Noviembre</span>
+            <span className="text-white text-xs">Desde el</span> 
+            <span className="text-white  text-xs"> {" "}21 hasta el 25 de Noviembre</span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold text-center sm:text-start text-[38px] sm:text-[72px]  text-white ">
             Gran evento <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Expotive</span>{" "}
+            <span className="text-white">2022</span>{" "}
+
+            
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          2022
-        </h1>
+   
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           
         </p>
